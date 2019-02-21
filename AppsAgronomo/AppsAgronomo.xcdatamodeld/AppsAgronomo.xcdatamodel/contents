@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Adubacao" syncable="YES">
+        <attribute name="amostra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="concentracaoK2O" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="concentracaoN" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="concentracaoP2O5" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="excessoK2O" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="excessoN" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="excessoP2O5" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="formuladoK2O" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="formuladoN" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="formuladoP2O5" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="k" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="necessidadeK2O" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="necessidadeN" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="necessidadeP2O5" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nivelK" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nivelP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="p" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recomendacoes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Agronomo" syncable="YES">
+        <attribute name="celular" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idAgronoo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uf" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Calagem" syncable="YES">
+        <attribute name="amostra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ca" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ctcph" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cultivo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hal" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="k" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="legendaResultado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mg" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="prnt" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recomendacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resultado" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sb" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="solo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="v1" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="v2" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Colheita" syncable="YES">
+        <attribute name="dataPlantio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataPrevista" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dataPrevistaStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diasAtraso" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diasCiclo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variedade" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Gessagem" syncable="YES">
+        <attribute name="aluminio" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="amostra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="argila" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="calcio" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legendaResultado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="proprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resultado" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="tipoSolo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Proprietario" syncable="YES">
+        <attribute name="celular" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endereco" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idProprietario" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nomeProprietario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="propriedade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uf" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Adubacao" positionX="-36" positionY="135" width="128" height="360"/>
+        <element name="Agronomo" positionX="-54" positionY="63" width="128" height="150"/>
+        <element name="Calagem" positionX="-36" positionY="90" width="128" height="315"/>
+        <element name="Gessagem" positionX="-18" positionY="162" width="128" height="195"/>
+        <element name="Proprietario" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="Colheita" positionX="-36" positionY="135" width="128" height="180"/>
+    </elements>
+</model>

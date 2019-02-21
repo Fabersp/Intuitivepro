@@ -1,0 +1,83 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - FCAlertView (1.4.0)
+  - Firebase/Core (4.8.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.13)
+  - Firebase/Messaging (4.8.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.8)
+  - FirebaseAnalytics (4.0.5):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.13):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.8):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.8):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - HexColors (2.2.1)
+  - IDMPhotoBrowser (1.11.3):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - pop (1.0.10)
+  - Protobuf (3.5.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+  - UCZProgressView (1.0.2)
+
+DEPENDENCIES:
+  - DACircularProgress
+  - FCAlertView
+  - Firebase/Core
+  - Firebase/Messaging
+  - IDMPhotoBrowser
+  - pop
+  - SDWebImage
+  - SVProgressHUD
+  - TSMessages
+  - UCZProgressView
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+  Firebase: 710decbbc6d9d48530e9a5dba3209740c3532e05
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseCore: 3c02ec652db3d03fdc8bc6d9154af3e20d64b6f5
+  FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
+  FirebaseMessaging: dfdcd307c2382290a1e297a81d0f18370f5b1bcd
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  IDMPhotoBrowser: b96159fe4adb991a844068eb17dab9c0b7d7e51a
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  UCZProgressView: 55836987c15ee6efb7cd6dfe297556602ee46c94
+
+PODFILE CHECKSUM: 01e7362d6c4daadd0e7e7cfe20f2dea09508d6ac
+
+COCOAPODS: 1.1.1

@@ -64,25 +64,6 @@
 
 ---
 
-## 🛠️ **How to Contribute**
-
-1. Fork the project.
-2. Create a new branch:
-   ```bash
-   git checkout -b my-new-feature
-   ```
-3. Make your changes and **commit**:
-   ```bash
-   git commit -m "Added a new feature X"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin my-new-feature
-   ```
-5. Open a **Pull Request** on GitHub.
-
----
-
 ## 🐛 **Report Issues**
 
 If you encounter any bugs or have suggestions for improvements, please open an **issue** in the repository.
@@ -91,9 +72,9 @@ If you encounter any bugs or have suggestions for improvements, please open an *
 
 ## 🧑‍💻 **Developers**
 
-- **Lead Developer:** [Your Name]
-- **Contact:** [your.email@example.com]
-- **LinkedIn:** [linkedin.com/your-profile]
+- **Lead Developer:** Fabricio Aguiar de Padua
+- **LinkedIn:** www.linkedin.com/fabricio-padua  
+- **contact:** fabricio_0505_@hotmail.com
 
 ---
 
